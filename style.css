@@ -20,8 +20,8 @@
     /*Font size*/
     --font-large: 48px;
     --font-medium: 28px;
-    --font-regular: 18px;
-    --font-small: 16px;
+    --font-regular: 20px;
+    --font-small: 18px;
     --font-micro: 14px;
 
     /*Font weight*/
@@ -43,7 +43,7 @@
 }
 
 body {
-    font-family: 'Signika', sans-serif;
+    font-family: 'Gamja Flower', cursive;
     margin: 0;
     cursor: default;
 }
@@ -67,7 +67,7 @@ button {
     cursor: pointer;
     border: none;
     outline: none;
-    font-family: 'Signika', sans-serif;
+    font-family: 'Gamja Flower', cursive;
 }
 
 /*Typography*/
@@ -141,7 +141,7 @@ p {
     background-color: var(--color-beige);
 }
 
-.Koreanpage {
+.Englishpage {
     background-color: var(--color-dark-brown);
     margin: 1px;
     cursor: pointer;
@@ -151,7 +151,7 @@ p {
     font-family: 'Gaegu', cursive;
 }
 
-.Koreanpage:hover {
+.Englishpage:hover {
     color: var(--color-dark-brown);
     background-color: var(--color-light-green);
 }
@@ -167,7 +167,7 @@ p {
 
 /*HOME*/
 #home {
-    background : url('./imgs/home-background.png') center/cover no-repeat;
+    background : url('./imgs_korean/home-background.png') center/cover no-repeat;
     padding: 40px;
     padding-top: 120px;
     text-align: center;
@@ -224,6 +224,7 @@ p {
 }
 
 .major__title {
+    font-size: var(--font-small);
     margin-top: 5px;
     margin-bottom: 15px;
 }
@@ -588,11 +589,6 @@ p {
     --font-micro: 12px;
     }
 
-#home {
-     background : url('./imgs/home-background-s.png') center/cover no-repeat;
-     text-align: center;
-    }
-
  .navbar__toggle-btn {
     display: block;
     border-radius: var(--size-border-radius);
@@ -618,8 +614,8 @@ p {
     display: block;
 }
 
-.Koreanpage {
-    font-size: var(--font-small);
+.Englishpage {
+    font-family: 'Gamja Flower', cursive;
 }
 
 .section {
@@ -650,8 +646,9 @@ p {
 }
 
 .project__img5 {
-        max-width: 100%;
-        max-height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    margin-left: 5px;
 }
 
 .testimonial {
