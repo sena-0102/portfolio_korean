@@ -20,8 +20,8 @@
     /*Font size*/
     --font-large: 48px;
     --font-medium: 28px;
-    --font-regular: 20px;
-    --font-small: 18px;
+    --font-regular: 18px;
+    --font-small: 16px;
     --font-micro: 14px;
 
     /*Font weight*/
@@ -43,7 +43,7 @@
 }
 
 body {
-    font-family: 'Gamja Flower', cursive;
+    font-family: 'Signika', sans-serif;
     margin: 0;
     cursor: default;
 }
@@ -67,7 +67,7 @@ button {
     cursor: pointer;
     border: none;
     outline: none;
-    font-family: 'Gamja Flower', cursive;
+    font-family: 'Signika', sans-serif;
 }
 
 /*Typography*/
@@ -141,7 +141,7 @@ p {
     background-color: var(--color-beige);
 }
 
-.Englishpage {
+.Koreanpage {
     background-color: var(--color-dark-brown);
     margin: 1px;
     cursor: pointer;
@@ -151,7 +151,7 @@ p {
     font-family: 'Gaegu', cursive;
 }
 
-.Englishpage:hover {
+.Koreanpage:hover {
     color: var(--color-dark-brown);
     background-color: var(--color-light-green);
 }
@@ -167,7 +167,7 @@ p {
 
 /*HOME*/
 #home {
-    background : url('./imgs_korean/home-background.png') center/cover no-repeat;
+    background : url('./imgs/home-background.png') center/cover no-repeat;
     padding: 40px;
     padding-top: 120px;
     text-align: center;
@@ -224,7 +224,6 @@ p {
 }
 
 .major__title {
-    font-size: var(--font-small);
     margin-top: 5px;
     margin-bottom: 15px;
 }
@@ -544,7 +543,7 @@ p {
 
 .contact__links {
     font-size: var(--font-large);
-    margin: 24px;
+    margin: 18px;
 }
 
 .contact__links i {
@@ -589,6 +588,11 @@ p {
     --font-micro: 12px;
     }
 
+#home {
+     background : url('./imgs/home-background-s.png') center/cover no-repeat;
+     text-align: center;
+    }
+
  .navbar__toggle-btn {
     display: block;
     border-radius: var(--size-border-radius);
@@ -612,6 +616,10 @@ p {
 
 .navbar__menu.open {
     display: block;
+}
+
+.Koreanpage {
+    font-size: var(--font-small);
 }
 
 .section {
@@ -639,6 +647,11 @@ p {
     flex-grow: 1;
     justify-content: center;
     width: 100%;
+}
+
+.project__img5 {
+        max-width: 100%;
+        max-height: 100%;
 }
 
 .testimonial {
