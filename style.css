@@ -142,6 +142,7 @@ p {
 }
 
 .Englishpage {
+    background-color: var(--color-dark-brown);
     margin: 1px;
     cursor: pointer;
     color: var(--color-white);
